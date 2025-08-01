@@ -1,0 +1,4 @@
+Script started on Thu Jul 31 21:35:12 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heecho "v1">   > notas.txt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
