@@ -9,4 +9,49 @@ Script started on Thu Jul 31 21:35:12 2025
 [1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v2" >> notas.txt && git commit -am "v2"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[?2004l
 [main 01f4d20] v2
  1 file changed, 1 insertion(+)
-[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v3" >> notas.txt && git commit -am "v3"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mn[27mo[27mt[27ma[27ms[27m.[27mt[27mx[27mt[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m"[?2004l
+[main 75a56e0] v3
+ 2 files changed, 9 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33m75a56e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout HEAD~2[27m[19D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m2[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab1-sessao1.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h        [8D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit checkout HEAD~2 1[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab1-sessao1.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hccat notas.txt[1m [0m[0m [?2004l
+v1
+v2
+v3
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+M	lab1-sessao1.txt
+Already on 'main'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[1C[?2004l
+[?1h=[33m75a56e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit reset --soft HEAD~1[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27ms[27mo[27mf[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit reset --soft HEAD~1[19Dlog --oneline      [?2004l
+[?1h=[33m01f4d20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "Corrige v2 revertido"[27m[36D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mr[27mr[27mi[27mg[27me[27m [27mv[27m2[27m [27mr[27me[27mv[27me[27mr[27mt[27mi[27md[27mo[27m"[?2004l
+[main 7bf05f0] Corrige v2 revertido
+ 2 files changed, 9 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit commit -m "Corrige v2 revertido"[32Dlog --oneline                   [19D[?2004l
+[?1h=[33m7bf05f0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heeie eie exit[?2004l
+
+Script done on Thu Jul 31 21:39:56 2025
