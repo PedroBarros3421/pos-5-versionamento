@@ -127,4 +127,41 @@ Switched to branch 'main'
   test-reset[m[m
   test_hard[m[m
   test_revert[m[m
-[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v3 main" >> app.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m>[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -am "v3 main"[27m[24D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m [27mm[27ma[27mi[27mn[27m"[?2004l
+[main 00f168a] v3 main
+ 2 files changed, 131 insertions(+)
+ create mode 100644 lab2-sessao1.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline --all[27m[23D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m-[27ma[27ml[27ml[?2004l
+[?1h=[33m00f168a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3 main[m
+[33m4b8ecac[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m Merge branch 'main' into test[m
+[33md99373d[m v2 main[m
+[33m5da52b8[m[33m ([m[1;32mbranch-v1.1[m[33m)[m finalizando o lab3[m
+[33mfc22339[m patch para versão 1.1[m
+[33m6e68a8e[m[33m ([m[1;33mtag: [m[1;33mv2.0[m[33m, [m[1;33mtag: [m[1;33mhotfix[m[33m, [m[1;32mtest_revert[m[33m)[m Commit com anotação de versão[m
+[33m463b589[m[33m ([m[1;32mtest-reset[m[33m)[m agora vai[m
+[33m013e7dc[m commit limpo[m
+[33maf6a816[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m, [m[1;32mtest_hard[m[33m)[m Commit 3[m
+[33m1895ead[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
+[33m3251bc3[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
+[33m2005bf4[m algum commit[m
+[33m1ecb206[m commit 2[m
+[33mfe0af7f[m commit 1[m
+[33m829d442[m v3[m
+:[K[K[33m6f143af[m v2[m
+:[K[K[33m2965633[m v1[m
+:[K[K[33m7bf05f0[m Corrige v2 revertido[m
+:[K[K[33m01f4d20[m v2[m
+:[K[K[33ma5be825[m v1[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:27:38 2025
