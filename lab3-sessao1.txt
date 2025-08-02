@@ -1,0 +1,79 @@
+Script started on Sat Aug  2 10:04:45 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "linha 1" > log.txt[27m[24D[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m1[27m"[27m [27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add log.txt[27m[15D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "Commit 1"[27m[24D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m1[27m"[?2004l
+[main 3251bc3] Commit 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "linha 2" >> log.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m2[27m"[27m [27m>[27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -am "Commit 2"[27m[25D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m2[27m"[?2004l
+[main 1895ead] Commit 2
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "linha 3" >> log.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27m3[27m"[27m [27m>[27m>[27m [27ml[27mo[27mg[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -am "Commit 3"[27m[25D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27m3[27m"[?2004l
+[main af6a816] Commit 3
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33maf6a816[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Commit 3[m
+[33m1895ead[m Commit 2[m
+[33m3251bc3[m Commit 1[m
+[33m2005bf4[m algum commit[m
+[33m1ecb206[m commit 2[m
+[33mfe0af7f[m commit 1[m
+[33m829d442[m v3[m
+[33m6f143af[m v2[m
+[33m2965633[m v1[m
+[33m7bf05f0[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag v1.0 HEAD~2[27m[19D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m0[27m [27mH[27mE[27mA[27mD[27m~[27m2[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag v1.1 HEAD~1[27m[19D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m1[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag v1.2 HEAD[27m[17D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mv[27m1[27m.[27m2[27m [27mH[27mE[27mA[27mD[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit tag[?2004l
+[?1h=v1.0[m
+v1.1[m
+v1.2[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit show v1.1[27m[13D[27mg[27mi[27mt[27m [27ms[27mh[27mo[27mw[27m [27mv[27m1[27m.[27m1[?2004l
+[?1h=[33mcommit 1895ead58d634081cd57fed611080c16f4005793[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:05:17 2025 -0300[m
+[m
+    Commit 2[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex 9ece502..b657d30 100644[m[m
+[1m--- a/log.txt[m[m
+[1m+++ b/log.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+ linha 1[m[m
+[32m+[m[32mlinha 2[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout v1.0[27m[17D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mv[27m1[27m.[27m0[?2004l
+Note: switching to 'v1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3251bc3 Commit 1
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+Previous HEAD position was 3251bc3 Commit 1
+Switched to branch 'main'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexi e  git checkout mainv1.0[13Dshow v1.1    [9Dtag      show v1.1[9Dtag       v1.2 HEAD[9D         [10D[?2004l
+[?1h=v1.0[m
+v1.1[m
+v1.2[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:06:57 2025

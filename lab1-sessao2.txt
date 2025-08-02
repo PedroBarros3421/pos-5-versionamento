@@ -1,0 +1,29 @@
+Script started on Thu Jul 31 21:43:34 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v1" > README.md[27m[21D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m1[27m"[27m [27m>[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add README.md[27m[17D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "v1"[27m[18D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mv[27m1[27m"[?2004l
+[main 2965633] v1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v2" >> README.md && git commit -am "v2"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m"[27m [27m>[27m>[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m"[?2004l
+[main 6f143af] v2
+ 2 files changed, 47 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v3" >> README.md && git commit -am "v3"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m3[27m"[27m [27m>[27m>[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m3[27m"[?2004l
+[main 829d442] v3
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v4" >> README.md && git commit -am "v4"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m4[27m"[27m [27m>[27m>[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m4[27m"[?2004l
+[main 712369d] v4
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v5" >> README.md && git commit -am "v5"[27m[45D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m5[27m"[27m [27m>[27m>[27m [27mR[27mE[27mA[27mD[27mM[27mE[27m.[27mm[27md[27m [27m&[27m&[27m [27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m5[27m"[?2004l
+[main cf7314a] v5
+ 1 file changed, 1 insertion(+)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hccat red ad    read    Rea  EADME.md[1m [0m[0m [?2004l
+v1
+v2
+v3
+v4
+v5
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Thu Jul 31 21:44:34 2025

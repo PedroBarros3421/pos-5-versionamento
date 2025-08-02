@@ -1,0 +1,61 @@
+Script started on Thu Jul 31 21:57:23 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit revert HEAD[27m[15D[27mg[27mi[27mt[27m [27mr[27me[27mv[27me[27mr[27mt[27m [27mH[27mE[27mA[27mD[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;16r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[16;1H<tos/Unifor/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/COMMIT_EDITMSG"<r/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/COMMIT_EDITMSG" 16L, 361B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HRevert "v5"[2;1H[K[3;1HThis reverts commit cf7314a336a5a3d7223ce5bab6b19793346e7fd0.[3;62H[K[5;1H# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#[7Cmodified:   README.md
+#
+# Untracked files:
+#[7Clab1-sessao2.txt
+#[7Clab1-sessao3.txt
+#[7Clab1-sessao4.txt[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1HRevert "v5"
+
+This reverts commit cf7314a336a5a3d7223ce5bab6b19793346e7fd0.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#[7Cmodified:   README.md
+#
+# Untracked files:
+#[7Clab1-sessao2.txt
+#[7Clab1-sessao3.txt
+#[7Clab1-sessao4.txt
+<r/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/COMMIT_EDITMSG" 16L, 361B[1;1H[?25h
+
+
+
+
+#[?25l[1;15r[15;1H
+[1;16r[15;1H#[16;1H[K[15;1H[?25h[14;8H[13;8H[12;8H[?25l[16;1H[1m-- INSERT --[12;9H[?25h[?25l[malab1-sessao2.txt[12;10H[?25h[?25llab1-sessao2.txt[12;25H[K[12;9H[?25h[16;1H[K[12;8H[?25l[?25h[?25l[16;1H:[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[12;8H[?25h[m la[?25l[16;1H[K[16;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[16;1H[K[16;1H[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[Kerror: there was a problem with the editor 'vi'
+Please supply the message using either -m or -F option.
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit revert HEAD[15Dexit           [11Dgit diff HEAD~1 HEAD[16Dconfig user.emailname [16Dlog -1          [10D-oneline[17Dexit             [13Dgit log --oneline[?2004l
+[?1h=[33mcf7314a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v5[m
+[33m712369d[m v4[m
+[33m829d442[m v3[m
+[33m6f143af[m v2[m
+[33m2965633[m v1[m
+[33m7bf05f0[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit revert HEAD[27m[15D[27mg[27mi[27mt[27m [27mr[27me[27mv[27me[27mr[27mt[27m [27mH[27mE[27mA[27mD[?2004l
+error: your local changes would be overwritten by revert.
+[33mhint: commit your changes or stash them to proceed.[m
+fatal: revert failed
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit reset --hard HEAD~2[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27mh[27ma[27mr[27md[27m [27mH[27mE[27mA[27mD[27m~[27m2[?2004l
+HEAD is now at 829d442 v3
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit reset --hard HEAD~2[17Dvert HEAD        [8D[11Dlog --oneline[13Drevert HEAD  [11Dlog --oneline[?2004l
+[?1h=[33m829d442[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v3[m
+[33m6f143af[m v2[m
+[33m2965633[m v1[m
+[33m7bf05f0[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Thu Jul 31 21:59:43 2025

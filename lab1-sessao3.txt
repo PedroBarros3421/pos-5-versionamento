@@ -1,0 +1,33 @@
+Script started on Thu Jul 31 21:56:30 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33mcf7314a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m v5[m
+[33m712369d[m v4[m
+[33m829d442[m v3[m
+[33m6f143af[m v2[m
+[33m2965633[m v1[m
+[33m7bf05f0[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log -1[27m[10D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m1[?2004l
+[?1h=[33mcommit cf7314a336a5a3d7223ce5bab6b19793346e7fd0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Thu Jul 31 21:44:21 2025 -0300[m
+[m
+    v5[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit config user.name[27m[20D[27mg[27mi[27mt[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27mu[27ms[27me[27mr[27m.[27mn[27ma[27mm[27me[?2004l
+PedroBarros3421
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit config user.email[27m[21D[27mg[27mi[27mt[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27mu[27ms[27me[27mr[27m.[27me[27mm[27ma[27mi[27ml[?2004l
+ppedro3421@gmail.com
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit diff HEAD~1 HEAD[27m[20D[27mg[27mi[27mt[27m [27md[27mi[27mf[27mf[27m [27mH[27mE[27mA[27mD[27m~[27m1[27m [27mH[27mE[27mA[27mD[?2004l
+[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex ed7ce12..4d73d61 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -2,3 +2,4 @@[m [mv1[m[m
+ v2[m[m
+ v3[m[m
+ v4[m[m
+[32m+[m[32mv5[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Thu Jul 31 21:57:17 2025
