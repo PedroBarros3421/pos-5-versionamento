@@ -1,0 +1,130 @@
+Script started on Sat Aug  2 10:24:09 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit branch test[27m[15D[27mg[27mi[27mt[27m [27mb[27mr[27ma[27mn[27mc[27mh[27m [27mt[27me[27ms[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch prod[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=* [32mbranch-v1.1[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab3-sessao9.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit c  g  ggit branch[?2004l
+[?1h=* [32mbranch-v1.1[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout -b main[?2004l
+fatal: a branch named 'main' already exists
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit ch  branch[?2004l
+[?1h=* [32mbranch-v1.1[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab3-sessao9.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit status[?2004l
+On branch branch-v1.1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   lab3-sessao9.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao1.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit add lab3-sessao9.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggitc  commit -m ""finali      f"i"n"a"l"i"z"a"n"d"o" "o" "l"a"b"3"[?2004l
+grep: *.py: No such file or directory
+[branch-v1.1 5da52b8] finalizando o lab3
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch main          checkout main[?2004l
+Switched to branch 'main'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "v2 main" >> app.txt[27m[25D[27me[27mc[27mh[27mo[27m [27m"[27mv[27m2[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m>[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add app.txt[27m[15D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mp[27mp[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -am "v2 main"[27m[24D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27ma[27mm[27m [27m"[27mv[27m2[27m [27mm[27ma[27mi[27mn[27m"[?2004l
+[main d99373d] v2 main
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout test[?2004l
+Switched to branch 'test'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit merge main[27m[14D[27mg[27mi[27mt[27m [27mm[27me[27mr[27mg[27me[27m [27mm[27ma[27mi[27mn[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;16r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[16;1H<cumentos/Unifor/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/MERGE_MSG"</Unifor/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/MERGE_MSG" 6L, 256B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HMerge branch 'main' into test
+# Please enter a commit message to explain why this merge is necessary,[2;72H[K[3;1H# especially if it merges an updated upstream into a topic branch.[3;67H[K[4;1H#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[94m~                                                                                                                                                        [8;1H~                                                                                                                                                        [9;1H~                                                                                                                                                        [10;1H~                                                                                                                                                        [11;1H~                                                                                                                                                        [12;1H~                                                                                                                                                        [13;1H~                                                                                                                                                        [14;1H~                                                                                                                                                        [15;1H~                                                                                                                                                        [1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1HMerge branch 'main' into test
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[94m~                                                                                                                                                        [8;1H~                                                                                                                                                        [9;1H~                                                                                                                                                        [10;1H~                                                                                                                                                        [11;1H~                                                                                                                                                        [12;1H~                                                                                                                                                        [13;1H~                                                                                                                                                        [14;1H~                                                                                                                                                        [15;1H~                                                                                                                                                        [m[16;1H</Unifor/Pós Graduação/Especialização de Engenharia de Software com DevOps/Disciplinas/5 - Git Versionamento/git_workshop_pedin/.git/MERGE_MSG" 6L, 256B[1;1H[?25h
+
+
+
+
+[?25l[16;1H[K[16;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[16;1H[K[16;1H[?1004l[?2004l[?1l>[?1049l[?25h[>4;m[KMerge made by the 'ort' strategy.
+ app.py  | 1 [32m+[m
+ app.txt | 1 [32m+[m
+ log.txt | 1 [32m+[m
+ 3 files changed, 3 insertions(+)
+ create mode 100644 app.py
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit  g  ggit checkout prod[?2004l
+Switched to branch 'prod'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggitm  merge test[?2004l
+Updating fc22339..4b8ecac
+Fast-forward
+ app.py  | 1 [32m+[m
+ app.txt | 1 [32m+[m
+ log.txt | 1 [32m+[m
+ 3 files changed, 3 insertions(+)
+ create mode 100644 app.py
+ create mode 100644 app.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+  main[m[m
+* [32mprod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+Switched to branch 'main'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
