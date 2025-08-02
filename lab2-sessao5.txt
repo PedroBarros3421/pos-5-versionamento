@@ -1,0 +1,134 @@
+Script started on Sat Aug  2 10:34:37 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout -b feature[27m[23D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[?2004l
+Switched to a new branch 'feature'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "linha feature" > arquivo.txt[27m[34D[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add arquivo.txt[27m[19D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "commit na feature"[27m[33D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mc[27mo[27mm[27mm[27mi[27mt[27m [27mn[27ma[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[27m"[?2004l
+[feature d839542] commit na feature
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+Switched to branch 'main'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "linha main" > arquivo.txt[27m[31D[27me[27mc[27mh[27mo[27m [27m"[27ml[27mi[27mn[27mh[27ma[27m [27mm[27ma[27mi[27mn[27m"[27m [27m>[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add arquivo.txt[27m[19D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27ma[27mr[27mq[27mu[27mi[27mv[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "commit no main"[27m[30D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mc[27mo[27mm[27mm[27mi[27mt[27m [27mn[27mo[27m [27mm[27ma[27mi[27mn[27m"[?2004l
+[main 06a73e0] commit no main
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout feature[27m[20D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27mf[27me[27ma[27mt[27mu[27mr[27me[?2004l
+Switched to branch 'feature'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggi t merge main[?2004l
+Auto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit status[?2004l
+On branch feature
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao3.txt[m
+	[31mlab2-sessao4.txt[m
+	[31mlab2-sessao5.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit merge --abort[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit reset --hard HEAD~1[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27mh[27ma[27mr[27md[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+HEAD is now at 08d28ce configurando ignore
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit rebase main[27m[15D[27mg[27mi[27mt[27m [27mr[27me[27mb[27ma[27ms[27me[27m [27mm[27ma[27mi[27mn[?2004l
+[KSuccessfully rebased and updated refs/heads/feature.
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline --all[27m[23D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[27m [27m-[27m-[27ma[27ml[27ml[?2004l
+[?1h=[33m06a73e0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature[m[33m, [m[1;32mmain[m[33m)[m commit no main[m
+[33m08d28ce[m configurando ignore[m
+[33mccb7c81[m Resolvido conflito[m
+[33mb62518a[m Resolvido conflito[m
+[33mc68aa07[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m5a7cd3e[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33mcc112b2[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33m946e34d[m Primeiro commit[m
+[33m8916c46[m Resolve conflito entre A e B[m
+[33m577f524[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33m10bc31b[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33m00f168a[m v3 main[m
+[33m4b8ecac[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m Merge branch 'main' into test[m
+[33md99373d[m v2 main[m
+[33m5da52b8[m[33m ([m[1;32mbranch-v1.1[m[33m)[m finalizando o lab3[m
+:[K[K[33mfc22339[m patch para versão 1.1[m
+:[K[K[33m6e68a8e[m[33m ([m[1;33mtag: [m[1;33mv2.0[m[33m, [m[1;33mtag: [m[1;33mhotfix[m[33m, [m[1;32mtest_revert[m[33m)[m Commit com anotação de versão[m
+:[K[K[33m463b589[m[33m ([m[1;32mtest-reset[m[33m)[m agora vai[m
+:[K[K[33m013e7dc[m commit limpo[m
+:[K[K[33maf6a816[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m, [m[1;32mtest_hard[m[33m)[m Commit 3[m
+:[K[K[33m1895ead[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
+:[K[K[33m3251bc3[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
+:[K[K[33m2005bf4[m algum commit[m
+:[K[K[33m1ecb206[m commit 2[m
+:[K[K[33mfe0af7f[m commit 1[m
+:[K[K[33m829d442[m v3[m
+:[K[K[33m6f143af[m v2[m
+:[K[K[33m2965633[m v1[m
+:[K[K[33m7bf05f0[m Corrige v2 revertido[m
+:[K[K[33m01f4d20[m v2[m
+:[K[K[33ma5be825[m v1[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:36:15 2025
