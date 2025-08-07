@@ -1,0 +1,92 @@
+Script started on Sat Aug  2 10:16:35 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mecho "versão com nota" >> versao.txt[27m[36D[27me[27mc[27mh[27mo[27m [27m"[27mv[27me[27mr[27ms[27mã[27mo[27m [27mc[27mo[27mm[27m [27mn[27mo[27mt[27ma[27m"[27m [27m>[27m>[27m [27mv[27me[27mr[27ms[27ma[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit add versao.txt[27m[18D[27mg[27mi[27mt[27m [27ma[27md[27md[27m [27mv[27me[27mr[27ms[27ma[27mo[27m.[27mt[27mx[27mt[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit status[?2004l
+On branch test_revert
+You are currently reverting commit 1895ead.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   versao.txt[m
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   log.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-sessao4.txt[m
+	[31mlab3-sessao5.txt[m
+	[31mlab3-sessao6.txt[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit commit -m "Commit com anotação de versão"[27m[45D[27mg[27mi[27mt[27m [27mc[27mo[27mm[27mm[27mi[27mt[27m [27m-[27mm[27m [27m"[27mC[27mo[27mm[27mm[27mi[27mt[27m [27mc[27mo[27mm[27m [27ma[27mn[27mo[27mt[27ma[27mç[27mã[27mo[27m [27md[27me[27m [27mv[27me[27mr[27ms[27mã[27mo[27m"[?2004l
+U	log.txt
+error: Committing is not possible because you have unmerged files.
+[33mhint: Fix them up in the work tree, and then use 'git add/rm <file>'[m
+[33mhint: as appropriate to mark resolution and make a commit.[m
+fatal: Exiting because of an unresolved conflict.
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit status[?2004l
+On branch test_revert
+You are currently reverting commit 1895ead.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   versao.txt[m
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   log.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-sessao4.txt[m
+	[31mlab3-sessao5.txt[m
+	[31mlab3-sessao6.txt[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit add log.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hgit add log.txt[11Dstatus     commit -m "Commit com anotação de versão"[?2004l
+grep: *.py: No such file or directory
+[test_revert 6e68a8e] Commit com anotação de versão
+ 2 files changed, 4 insertions(+)
+ create mode 100644 versao.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag -a v2.0 -m "Versão 2.0 com melhorias"[27m[45D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27m-[27ma[27m [27mv[27m2[27m.[27m0[27m [27m-[27mm[27m [27m"[27mV[27me[27mr[27ms[27mã[27mo[27m [27m2[27m.[27m0[27m [27mc[27mo[27mm[27m [27mm[27me[27ml[27mh[27mo[27mr[27mi[27ma[27ms[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit show v2.0[27m[13D[27mg[27mi[27mt[27m [27ms[27mh[27mo[27mw[27m [27mv[27m2[27m.[27m0[?2004l
+[?1h=[33mtag v2.0[m[m
+Tagger: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:17:24 2025 -0300[m
+[m
+Versão 2.0 com melhorias[m
+[m
+[33mcommit 6e68a8edae6a9b408dde2982e2f5d3a423702edf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:17:18 2025 -0300[m
+[m
+    Commit com anotação de versão[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex c38618b..406f9ae 100644[m[m
+[1m--- a/log.txt[m[m
+:[K[K[1m+++ b/log.txt[m[m
+:[K[K[36m@@ -1,3 +1,6 @@[m[m
+:[K[K linha 1[m[m
+:[K[K[32m+[m[32m<<<<<<< HEAD[m[m
+:[K[K linha 2[m[m
+:[K[K linha 3[m[m
+:[K[K[32m+[m[32m=======[m[m
+:[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit tag -n[?2004l
+[?1h=v1.0            Commit 1[m
+v1.1            Commit 2[m
+v1.2            Commit 3[m
+v2.0            Versão 2.0 com melhorias[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:17:44 2025

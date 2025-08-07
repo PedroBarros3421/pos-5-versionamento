@@ -1,0 +1,43 @@
+Script started on Sat Aug  2 10:14:07 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggi t branch[?2004l
+[?1h=  main[m[m
+* [32mtest-reset[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit log[?2004l
+[?1h=[33mcommit 463b5897ce6a4db57f42042ce1f7ffadfceb4306[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest-reset[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:13:50 2025 -0300[m
+[m
+    agora vai[m
+[m
+[33mcommit af6a8160b7280fe1263e73a1d413c6b966a5c741[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:05:27 2025 -0300[m
+[m
+    Commit 3[m
+[m
+[33mcommit 1895ead58d634081cd57fed611080c16f4005793[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:05:17 2025 -0300[m
+:[K[K[m
+:[K[K    Commit 2[m
+:[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout -b test_hard[27m[25D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mt[27me[27ms[27mt[27m_[27mh[27ma[27mr[27md[?2004l
+Switched to a new branch 'test_hard'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggi t branch[?2004l
+[?1h=  main[m[m
+  test-reset[m[m
+* [32mtest_hard[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit reset --hard HEAD~1[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27mh[27ma[27mr[27md[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+HEAD is now at af6a816 Commit 3
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit status[?2004l
+On branch test_hard
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-sessao4.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:15:09 2025

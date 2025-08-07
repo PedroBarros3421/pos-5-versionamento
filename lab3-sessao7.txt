@@ -1,0 +1,39 @@
+Script started on Sat Aug  2 10:17:52 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag hotfix[27m[14D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27mh[27mo[27mt[27mf[27mi[27mx[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit tag[?2004l
+[?1h=hotfix[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag -d hotfix[27m[17D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27m-[27md[27m [27mh[27mo[27mt[27mf[27mi[27mx[?2004l
+Deleted tag 'hotfix' (was 6e68a8e)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit tag -a hotfix -m "Hotfix anotado"[27m[37D[27mg[27mi[27mt[27m [27mt[27ma[27mg[27m [27m-[27ma[27m [27mh[27mo[27mt[27mf[27mi[27mx[27m [27m-[27mm[27m [27m"[27mH[27mo[27mt[27mf[27mi[27mx[27m [27ma[27mn[27mo[27mt[27ma[27md[27mo[27m"[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit show hotfix[?2004l
+[?1h=[33mtag hotfix[m[m
+Tagger: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:18:13 2025 -0300[m
+[m
+Hotfix anotado[m
+[m
+[33mcommit 6e68a8edae6a9b408dde2982e2f5d3a423702edf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m, [m[1;33mtag: [m[1;33mhotfix[m[33m)[m[m
+Author: PedroBarros3421 <ppedro3421@gmail.com>[m
+Date:   Sat Aug 2 10:17:18 2025 -0300[m
+[m
+    Commit com anotação de versão[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex c38618b..406f9ae 100644[m[m
+[1m--- a/log.txt[m[m
+:[K[K[1m+++ b/log.txt[m[m
+:[K[K[36m@@ -1,3 +1,6 @@[m[m
+:[K[K linha 1[m[m
+:[K[K[32m+[m[32m<<<<<<< HEAD[m[m
+:[K[K linha 2[m[m
+:[K[K linha 3[m[m
+:[K[K[32m+[m[32m=======[m[m
+:[K[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heexit[?2004l
+
+Script done on Sat Aug  2 10:18:24 2025
