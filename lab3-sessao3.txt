@@ -1,0 +1,40 @@
+Script started on Sat Aug  2 10:12:30 2025
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=* [32mmain[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?2004l
+[?1h=[33m013e7dc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m commit limpo[m
+[33maf6a816[m[33m ([m[1;33mtag: [m[1;33mv1.2[m[33m)[m Commit 3[m
+[33m1895ead[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m Commit 2[m
+[33m3251bc3[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Commit 1[m
+[33m2005bf4[m algum commit[m
+[33m1ecb206[m commit 2[m
+[33mfe0af7f[m commit 1[m
+[33m829d442[m v3[m
+[33m6f143af[m v2[m
+[33m2965633[m v1[m
+[33m7bf05f0[m Corrige v2 revertido[m
+[33m01f4d20[m v2[m
+[33ma5be825[m v1[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit checkout -b test-reset[27m[26D[27mg[27mi[27mt[27m [27mc[27mh[27me[27mc[27mk[27mo[27mu[27mt[27m [27m-[27mb[27m [27mt[27me[27ms[27mt[27m-[27mr[27me[27ms[27me[27mt[?2004l
+Switched to a new branch 'test-reset'
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit reset --soft HEAD~1[27m[23D[27mg[27mi[27mt[27m [27mr[27me[27ms[27me[27mt[27m [27m-[27m-[27ms[27mo[27mf[27mt[27m [27mH[27mE[27mA[27mD[27m~[27m1[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h[7mgit status[27m[10D[27mg[27mi[27mt[27m [27ms[27mt[27ma[27mt[27mu[27ms[?2004l
+On branch test-reset
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   app.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+	[31mlab3-sessao1.txt[m
+	[31mlab3-sessao2.txt[m
+	[31mlab3-sessao3.txt[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit diff[?2004l
+[?1h=[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
