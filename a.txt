@@ -3,3 +3,4 @@ pedin
 teste stash 1
 novo componente
 commit importante 1
+commit importante 2
