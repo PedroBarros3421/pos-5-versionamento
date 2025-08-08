@@ -3,4 +3,9 @@ Script started on Fri Aug  8 20:01:46 2025
 [1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout -d  b [7majuste-layout[27m[13D[27ma[27mj[27mu[27ms[27mt[27me[27m-[27ml[27ma[27my[27mo[27mu[27mt[?2004l
 Switched to a new branch 'ajuste-layout'
 [1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heecho ˜ ""pedin      pedin">>   >> a.txt[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit add . && git commit -m "commit 1 do teste de 
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit add . && git commit -m "commit 1 do teste de reflog"" [?2004l
+[ajuste-layout f67b212] commit 1 do teste de reflog
+ 2 files changed, 7 insertions(+)
+ create mode 100644 lab5.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heecho "pedinn" >> ajuste.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
