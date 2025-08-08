@@ -8,4 +8,34 @@ Switched to a new branch 'ajuste-layout'
  2 files changed, 7 insertions(+)
  create mode 100644 lab5.txt
 [1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004heecho "pedinn" >> ajuste.txt[1m [0m[0m [?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hecho "pedinn" >> ajuste.txt[27Dgit add . && git commit -m "commit 1 do teste de reflog"[P[20C [21D2 do teste de reflog"[20D[?2004l
+[ajuste-layout b594661] commit 2 do teste de reflog
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab5.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch[?2004l
+[?1h=* [32majuste-layout[m[m
+  bugfix/1.4.0[m[m
+  devA-feature-x[m[m
+  develop[m[m
+  feature/ajuste-botao-revisado[m[m
+  feature/cadastro-usuario[m[m
+  feature/correcao-usuario[m[m
+  fix/correcao-develop[m[m
+  hotfix/1.1.0[m[m
+  main[m[m
+  release/1.0.0[m[m
+  release/1.1.0[m[m
+  release/1.4.0[m[m
+  release/1.6.0[m[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit branch main[?2004l
+fatal: a branch named 'main' already exists
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004hggit checkout main[?2004l
+error: Your local changes to the following files would be overwritten by checkout:
+	lab5.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+[1m[7m%[27m[1m[0m                                                                                                                                                         [0m[27m[24m[Jpedrohenrique@MacBook-Air-de-Pedro git_workshop_pedin % [K[?2004ha 
