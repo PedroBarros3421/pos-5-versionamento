@@ -1,2 +1,4 @@
 commit A
 pedin
+teste stash 1
+novo componente
